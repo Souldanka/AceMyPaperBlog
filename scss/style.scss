@@ -1,0 +1,241 @@
+.wpcf7-form{
+	display: flex;
+    max-width: 720px;
+}
+.form-castom .wpcf7{
+    height: 418px;
+    max-width: 720px;
+    margin: 0 auto;
+}; 
+.form-castom__header {
+    width: 601px;
+    font-family: 'FiraSans';
+    font-size: 48px;
+    font-weight: 500;
+    color: rgba(72, 72, 75, 1);
+    text-align: center;
+    line-height: 60px;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    };
+.contact__form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+};
+.tex{
+    height: 150px;
+    max-width: 346px;
+    outline-color: red;
+    font-family: "Montserrat";
+    font-weight: 700;
+    };
+
+
+.contact__form-input .wpcf7-form-control{
+    max-width: 345px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    margin-right: 25px;
+    padding-left: 20px;
+    font-family: "Montserrat";
+    font-weight: 700;
+} 
+.wpcf7-form-control{
+	max-width: 345px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    margin-right: 25px;
+    padding-left: 20px;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+input:invalid {
+    outline-color:red
+};
+
+input:valid{
+    outline-color: green
+};
+
+
+
+.inp{
+    display: flex;
+    justify-content: space-between;
+    max-width: 345px;
+    height: 189px;
+    flex-wrap: wrap;
+};
+input{
+    width: 345px
+}
+
+.contact__form-message {
+    height: 158px;
+    width: 285px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    resize: none;
+    padding-top: 18px;
+    padding-left: 18px;
+    border-radius: 2px;
+}
+
+
+.contact__form-btn{
+    height: 47px;
+    width: 166px;
+    background-color: rgba(100, 63, 237, 1);
+    border-radius: 5px;
+    box-shadow: 0px 12px 20px 1px rgba(99, 89, 175, 0.39);
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 0.1em;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+ 
+.header__inner{
+    display: flex;
+    height: 46px;
+    max-width: 1470px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+.header__list{
+    display: flex;
+    list-style-type: none;
+    margin-right: 54px;
+}
+.header__list li{
+    text-decoration: none;
+    margin-right: 54px;
+}
+.header__list :nth-child(4){
+    margin-right: 0px;
+}
+.header__list a{
+    text-decoration: none;
+    font-family: 'Lato';
+    font-size: 16px;
+    color: rgba(117, 117, 119, 1);
+    letter-spacing: 0.06em;
+    line-height: 34px;   
+}
+.header__list a:hover{
+    border-bottom: 1px solid #b2a0f6;
+    color: #6f3df2;   
+}
+.header__singin::before{
+    content: url(images/singin.png); 
+    width: 17px;
+    height: 20px; 
+    margin-right: 10px;
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+}
+.header__btn{
+    width: 148px;
+    line-height: 45px;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+}
+.header__btn a{
+    text-decoration: none;
+    border: 1px solid #8a7cf9;
+    color: #643fed;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 5px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+@media screen and (max-width: 1366px){
+    .header__inner{
+        padding: 0 50px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .header__inner{
+        padding: 0 50px;
+    }
+
+    .header__menu{
+        background: #000;
+        padding: 15px 10px;   
+        color: #fff;
+        font-family: 'Segoe UI', sans-serif;
+        text-align: center;
+    }
+    .header__menu > ul {
+       padding: 0;
+    }
+    .header__menu li{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .header__menu a{
+        color: #fff;
+        padding: 5px 10px;
+        text-decoration: none;
+        border: 1px solid transparent;
+        transition: 0.3s;
+    }
+    .header__menu a:hover{
+        border: 1px solid #fff;
+    }
+    
+    input[type="checkbox"] {
+        display: none;
+    }
+    .header__menu label {    
+        display: none;
+        border: 1px solid #fff;   
+        padding: 5px 10px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .header__menu label:hover{
+        color: #f00;
+        border: 1px solid #f00;
+    }
+    
+        
+    .header__menu label{
+             display: inline-block;
+        }
+    .header__menu > ul {
+            display: none;
+        }
+    input[type="checkbox"]:checked ~ label + ul {
+            display: flex;
+            flex-direction:column;
+        }
+        
+}
